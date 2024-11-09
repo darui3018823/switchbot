@@ -1,4 +1,4 @@
-# SwitchBot API WebClient Bot
+# SwitchBot API Bot
 
 このプロジェクトは、SwitchBot APIを使用してPC向けにSwitchBotデバイスの情報を確認するボットです。<br>
 現在、デバイス情報を取得する機能のみが実装されていますが、今後のアップデートで機能が増える予定です。<br>
