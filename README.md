@@ -38,21 +38,21 @@
 <br>
 <br>
 
-    ### Discord Bot Token :<br>
-    [Discord Developer Portal](https://discord.com/developers/applications)にアクセスし、
-    Botを作っていなければそこで作ってください。<br>
-    作ったBotからTokenをコピーします。<br>
-    環境変数を設定します。<br>
-    変数名は`Switchbot_API_discordbot`にしてください。<br>
-    すべてOKを押して終了します。<br><br>
+### Discord Bot Token :<br>
+[Discord Developer Portal](https://discord.com/developers/applications)にアクセスし、
+Botを作っていなければそこで作ってください。<br>
+作ったBotからTokenをコピーします。<br>
+環境変数を設定します。<br>
+変数名は`Switchbot_API_discordbot`にしてください。<br>
+すべてOKを押して終了します。<br><br>
 
-    ### SwitchBot API Token :<br>
-    以下の公式ページを参考に取得してください。<br>
-    - [トークンの取得方法 - Switchbotサポート](https://support.switch-bot.com/hc/ja/articles/12822710195351-%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E3%81%AE%E5%8F%96%E5%BE%97%E6%96%B9%E6%B3%95)<br>
-    
-    取得したTokenを以下のように設定します。<br>
-    トークン: 環境変数名`Switchbot_User_Token`<br>
-    クライアントシークレット: 環境変数名`Switchbot_Secret_Token`
+### SwitchBot API Token :<br>
+以下の公式ページを参考に取得してください。<br>
+- [トークンの取得方法 - Switchbotサポート](https://support.switch-bot.com/hc/ja/articles/12822710195351-%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E3%81%AE%E5%8F%96%E5%BE%97%E6%96%B9%E6%B3%95)<br>
+
+取得したTokenを以下のように設定します。<br>
+  トークン: 環境変数名`Switchbot_User_Token`<br>
+  クライアントシークレット: 環境変数名`Switchbot_Secret_Token`
 <br>
 
 4. 実行<br>
