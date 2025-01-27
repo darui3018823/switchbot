@@ -1,7 +1,7 @@
 # SwitchBot API Bot
 
-このプロジェクトは、SwitchBot APIを使用してPC向けにSwitchBotデバイスの情報を確認するボットです。<br>
-現在、デバイス情報を取得する機能のみが実装されていますが、今後のアップデートで機能が増える予定です。<br>
+このプロジェクトは、SwitchBot APIを使用してDiscord向けにSwitchBotデバイスの情報を確認するBotのソースコードです。<br>
+Switchbot Appをわざわざ開くのが面倒くさい...名そんなあなたにお勧め！！！（？）<br>
 
 ## 機能
 
