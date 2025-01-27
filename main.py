@@ -1,12 +1,6 @@
-import datetime
-from pydoc import text
-import re
-import subprocess
-import time
 import discord
 from discord.ext import commands
-from discord import Embed, Interaction, app_commands
-import pytz
+from discord import Interaction, app_commands
 from imports.PlugMini import fetch_plugmini_data
 from imports.Room_Temp import fetch_room_temp_data
 from imports.devicelist import get_device_list  # 作成した非同期関数をインポート
@@ -78,7 +72,6 @@ async def restart(interaction: Interaction):
     # バッチファイルを実行
     os.system(f'"{script_path}"')
 
-
 @bot.tree.command(name="devicelist", description="daruのTokenから取得できるデバイスリストを送信します。")
 async def devicelist(interaction: discord.Interaction):
     embed = discord.Embed(title="Device List", description="Sending request to Switchbot API...\nPlease wait a Moment.", color=0x1e90ff)
@@ -146,7 +139,8 @@ async def room_temp(interaction: discord.Interaction):
 async def plugmini(interaction: discord.Interaction, device: str):
     embed = discord.Embed(title="Plug Mini", description="Sending request to Switchbot API...\nPlease wait a Moment.", color=0x1e90ff)
     await interaction.response.send_message(embed=embed)
-    # deviceパラメータでデバイスIDを指定
+    # IDはPlug MiniデバイスのIDを指定
+    # IDは適宜変更してください
     device_mapping = {
         '6A': 'DCDA0CDC436A',
         'B6': 'DCDA0CDC4DB6',
