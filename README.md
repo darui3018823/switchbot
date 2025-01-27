@@ -1,7 +1,7 @@
 # SwitchBot API Bot
 
 このプロジェクトは、SwitchBot APIを使用してDiscord向けにSwitchBotデバイスの情報を確認するBotのソースコードです。<br>
-Switchbot Appをわざわざ開くのが面倒くさい...名そんなあなたにお勧め！！！（？）<br>
+Switchbot Appをわざわざ開くのが面倒くさい...なそんなあなたにお勧め！！！（？）<br>
 
 ## 機能
 
